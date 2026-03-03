@@ -1,3 +1,6 @@
+import os
+print("TOKEN:", os.environ.get("TOKEN"))
+print("ADMIN_ID:", os.environ.get("ADMIN_ID"))
 import telebot
 import os
 
